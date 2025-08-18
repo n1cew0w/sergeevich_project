@@ -1,0 +1,28 @@
+hr{
+    margin: 14px 0;
+}
+.main{
+    padding: 15px;
+}
+.logo{
+
+}
+nav{
+
+    display: flex;
+    justify-content: end;
+}
+.link_head{
+    color: white;
+    text-decoration: none;
+    margin-left: 42px;
+}
+.link_nav{
+    color: white;
+    text-decoration: none;
+    margin-left: 42px;
+}
+.main_nav{
+    display: flex;
+    align-items: center;
+}
