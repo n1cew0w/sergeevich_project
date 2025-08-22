@@ -1,60 +1,11 @@
-hr{
-    margin: 14px 0;
-}
-.main{
-    padding: 15px;
-}
-.logo{
-
-}
-
-nav{
-    display: flex;
-    justify-content: end;
-}
-.link_head{
-    color: white;
-    text-decoration: none;
-    margin-left: 42px;
-}
-.link_nav{
-    color: white;
-    text-decoration: none;
-    margin-left: 42px;
-}
-.main_nav{
-    display: flex;
-    align-items: center;
-    text-align-last: center;
-
-}
-.nomer_wrap{
-    flex-shrink: 0; flex-grow: 0;margin-left: auto;
-}
-.nomer{
-    max-width: 250px;
-    display: flex;
-    float: right;
-    text-decoration: none;
-    color: white;
-    font-size: 26px;
-}
-.nomer_text{
-    font-size: 18px;
-}
-/*SOCIALS*/
-.socials_wrap{
-    float: right;
-    margin-top: 15px;
-}
-.socials {
+.wrapper {
     display: inline-flex;
     align-items: center;
     gap: 12px;
     padding: 8px 12px;
     border: 1px solid rgba(255, 255, 255, 0.6);
     border-radius: 10px;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(0, 0, 0, 0.3); /* затемнение, как на картинке */
     color: #fff;
 }
 
@@ -98,4 +49,3 @@ nav{
 .vk {
     background-color: #0077ff;
 }
-

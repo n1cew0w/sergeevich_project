@@ -1,11 +1,13 @@
 :root {
+
+    align-items: center;
     font-family: Montserrat,"Montserrat ExtraBold",sans-serif;
     line-height: 1.5;
     font-weight: 400;
     margin: 0 auto;
     padding: 0 63px;
     color: rgba(255, 255, 255, 0.87);
-    background-color: #c3c4c6;
+    background-color: #ffffff;
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
@@ -17,7 +19,8 @@
     overflow-x: hidden;
 
     background-image: url("assets/bg1.jpg");
-    background-size: cover;
+    background-size: 100%;
+
     background-repeat: no-repeat;
 }
 

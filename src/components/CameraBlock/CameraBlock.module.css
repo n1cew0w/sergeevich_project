@@ -1,0 +1,54 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.imageWrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    max-width: 50%;
+    height: auto;
+}
+
+.textWrapper {
+    flex: 1;
+}
+
+.textWrapper h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: black;
+}
+
+.textWrapper p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.orange {
+    color: #e67e22;
+    font-weight: 700;
+}
+
+/* Адаптив */
+@media (max-width: 900px) {
+    .wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    .textWrapper h2 {
+        font-size: 22px;
+    }
+}
