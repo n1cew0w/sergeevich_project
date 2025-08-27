@@ -39,6 +39,7 @@
 }
 
 .wrapper {
+    max-width: 710px;
      display: flex;
      gap: 16px;
      flex-wrap: wrap;

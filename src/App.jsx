@@ -5,6 +5,8 @@ import VideoBlock from "./components/VideoBlock/VideoBlock.jsx";
 import Projects from "./components/Projects/Projects.jsx";
 import CameraBlock from "./components/CameraBlock/CameraBlock.jsx";
 import Advantages from "./components/Advantages/Advantages.jsx";
+import ContactForm from "./components/ContactForm/ContactForm.jsx";
+import Services from "./components/Services/Services.jsx";
 function App() {
 
   return (
@@ -15,6 +17,8 @@ function App() {
         <Projects/>
         <CameraBlock/>
         <Advantages/>
+        <ContactForm/>
+        <Services/>
     </>
   )
 }
